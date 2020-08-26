@@ -1,2 +1,34 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+user=input('Olá! Digite seu nome:')
+print(f'Olá Sr(a) {user}, seja bem vindo ao nosso site!')
+print('Este site serve apenas para teste de códigos. Estou aprendendo a utilizar o GitHub.')
+print('Obrigado pela compreensão :)')
+
+print('Aqui é um programinha capaz de calcular uma média aritimética:')
+a=input('Digite um número qualquer:')
+b=input('Digite outro número:')
+c=(a+b)2
+print(f'A média aritimética entre {a} e {b} é equivalente a{c}.')
+
+print('Aqui é um programinha capaz de calcular uma média ponderada de 4 termos')
+
+d=input('Digite o primeiro número:')
+peso1=input('Digite o peso do primeiro número')
+e=input('Digite o segundo número')
+peso2=input('Digite o peso do segundo número')
+f=input('Digite o terceiro número')
+peso3=input('Digite o peso do terceiro número')
+g=input('Digite o quarto número')
+peso4=input('Digite o peso do quarto número')
+
+z=(d*peso1+e*peso2+f*peso3+g*peso4)/peso1+peso2+peso3+peso4
+
+resposta=input('Deseja saber o resultado agora? Digite sim ou não')
+
+if resposta=='sim': print(f'O valor da média ponderada dos números informados, com seus respectivos pesos, equivale a: {z}')
+
+else: print('Ok, tenha um ótimo dia :)')
+
+Print('obrigado por usar nosso programinha de teste :)')
+
